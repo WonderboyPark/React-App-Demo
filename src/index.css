@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+.app-wrapper {
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.side-wrapper {
+  background-color: brown;
+  width: 200px;
+  height: 100vh;
+}
+
+.mainContentWrapper {
+  background-color: aqua;
+  margin: 1rem;
+  width: 100vw;
+  justify-content: stretch;
+  display: flex;
+}
